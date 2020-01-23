@@ -19,11 +19,11 @@ They are also downloaded, with name of map12_w.jpg map13_w.jpg and map14_w.jpg
 Currently, the lon. and lat. are not known, it is better to find their location.
 
 There are 3 manual avaliable.
-*   MD means "�����p���搅���N�Ԓl�f�[�^" https://www.nies.go.jp/igreen/manual/MD_manu.pdf
+*   MD means "公共用水域水質年間値データ(Kōkyōyōsuiiki suishitsu nenkan-chi dēta)(Annual water quality data for public water bodies)" https://www.nies.go.jp/igreen/manual/MD_manu.pdf
 
-*   MK means "�����p���搅�����̒l�f�[�^" https://www.nies.go.jp/igreen/manual/MK_manu.pdf
+*   MK means "公共用水域水質検体値データ(Kōkyōyōsuiiki suishitsu kentai-chi dēta)(Public water body water quality sample value data)" https://www.nies.go.jp/igreen/manual/MK_manu.pdf
 
-*   MM means "�����p���搅������_�f�[�^" https://www.nies.go.jp/igreen/manual/MM_manu.pdf
+*   MM means "公共用水域水質測定点データ(Kōkyōyōsuiiki suishitsu sokutei-ten dēta)(Public water body water quality measurement point data)" https://www.nies.go.jp/igreen/manual/MM_manu.pdf
 
 So more data will be downloaded in those three folders.
 
@@ -34,4 +34,7 @@ Data in each folder is downloaded and then orgnized. (in "MD/outputs","MD/output
 ## (Update: 20200123)
 
 * MD/MD.py: read MD********_0.txt, convert to csv and tkb files in MD/optputs
+
 * MK/MK.py: read MK********_0.txt, convert to csv and tkb files in MK/optputs
+
+* MM/jp/MK.py: read MM********_0.txt, convert to csv and tkb files in MK/jp/optputs
