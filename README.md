@@ -38,3 +38,9 @@ Data in each folder is downloaded and then orgnized. (in "MD/outputs","MD/output
 * MK/MK.py: read MK********_0.txt, convert to csv and tkb files in MK/optputs
 
 * MM/jp/MK.py: read MM********_0.txt, convert to csv and tkb files in MK/jp/optputs
+
+* scr/merge_mm_mk_md.py: read above tkb files, merge them in outputs/mk and outputs/md
+
+* scr/tkb.py: merge files in outputs/mk for tokyo bay area in outputs/tkb
+
+* scr/tkb_plot.py: plot station map and station water variables
