@@ -31,7 +31,7 @@ So more data will be downloaded in those three folders.
 
 Data in each folder is downloaded and then orgnized. (in "MD/outputs","MD/outputs"and"MM/jp/outputs").
 
-## (Update: 20200123)
+## (Update: 20181023)
 
 * MD/MD.py: read MD********_0.txt, convert to csv and tkb files in MD/optputs
 
